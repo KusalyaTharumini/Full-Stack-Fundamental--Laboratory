@@ -1,0 +1,86 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: whitesmoke;
+  color: black;
+  line-height: 1.5;
+}
+
+
+header {
+  background: greenyellow;
+  color: whitesmoke;
+  text-align: center;
+  padding: 30px 20px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: whitesmoke;
+  display: block;
+  margin: 0 auto 15px;
+}
+header h1 { margin: 0 0 8px; font-size: 1.5rem; }
+header p  { margin: 0; font-size: 0.9rem; }
+
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+section {
+  background: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+section h2 { margin: 0 0 10px; font-size: 1.1rem; }
+ul { margin: 0; padding-left: 20px; }
+
+
+table { width: 100%; border-collapse: collapse; }
+th {
+  background: greenyellow;);
+  color: whitesmoke;
+  text-align: left;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+}
+td {
+  padding: 14px 10px;
+  border-bottom: 1px solid whitesmoke;
+  font-size: 0.85rem;
+  vertical-align: middle;
+}
+td img {
+  width: 60px;
+  height: 50px;
+  background: whitesmoke;
+  display: block;
+}
+
+form label { display: block; margin: 10px 0 4px; font-size: 0.9rem; }
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid whitesmoke;
+  border-radius: 3px;
+  font: inherit;
+}
+form textarea { height: 100px; resize: vertical; }
+form button {
+  margin-top: 12px;
+  padding: 8px 18px;
+  background: greenyellow;
+  color: whitesmoke;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+form button:hover { background: greenyellow; }
+.connect a { color: greenyellow; }
